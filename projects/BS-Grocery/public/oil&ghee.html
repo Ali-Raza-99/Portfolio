@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSGROCERY</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <style>
+          .row .card {
+            margin-top: 33px;
+          }
+      
+          .row a {
+            text-decoration: none !important;
+          }
+      
+          #oil-ghee-card h6 {
+            color: black;
+          }
+      
+          #oilghee-card img {
+            height: 155px;
+          }
+        </style>
+</head>
+
+<body>
+    <!-- start with nav  -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light ">
+        <div class="container">
+            <img src="images/logo1.png" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li id="links" class="nav-item  ">
+                        <a class="nav-link " href="index.html">Home <i class="far fa-home"></i>
+                            <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About <i class="far fa-book"></i></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Products.html">Products <i class="far fa-shopping-cart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blogs <i class="far fa-blog"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact <i class="far fa-address-card"></i></a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+            </div>
+        </div>
+    </nav>
+    <!-- finish nav  -->
+
+
+
+
+<div id="oilghee-card" class="container mt-5">
+  <div  class="p-headings"><h2><i>Ghee</i></h2>
+    <hr class="bg-danger mb-4 mt-0 d-inline-block mx-auto" style="width:100px; height:2px;"></div>
+  <div class="row">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://cdn.metro-online.pk/dashboard/prod-pic/LHE-01262/12621260-0-M.jpg?7" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Mezan(B)Ghee 1Kg(C)</h6>
+          <hr>
+          <p class="card-text  text-danger">Rs:1,400</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="data:image/jpeg;base64,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"
+          alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Dil Dil(B)Ghee 1x5Kg(C)</h6>
+          <hr>
+          <p class="card-text  text-danger">Rs:1,275</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWgj09bmlLUU9Y8UXtjoeidhTvBq4k0gW72HTVAimT8jJIa1jjPR-j6NljVqwGL43d1ls&usqp=CAU" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Dalda(B)Ghee 1Kg(C)</h6>
+          <hr>
+          <p class="card-text  text-danger">Rs:1,620</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="http://familysouq.pk/wp-content/uploads/2020/04/Tullo-Banaspati-Ghee-Poly-Pack-1kg-..jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Tullo(B)Ghee 1Kg(C)</h6>
+          <hr>
+          <p class="card-text  text-danger">Rs:1,495</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div  class="p-headings"><h2><i>Oil</i></h2>
+    <hr class="bg-danger mb-4 mt-0 d-inline-block mx-auto" style="width:100px; height:2px;"></div>
+  <div class="row">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://hummart.com/media/catalog/product/h/t/httpphpstack-143539-415191.cloudwaysapps.commedia8964000419748.jpg?width=300&height=300&canvas=300:300&quality=80&bg-color=255,255,255&fit=bounds" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Mezan Canola Oil 1L(C)</h6>
+          <hr>
+          <p class="card-text  text-danger">Rs:1,400</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://i1.wp.com/fairo.pk/wp-content/uploads/2019/07/mezan-cooking-oil-5l.jpg?fit=1025%2C1025&ssl=1" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Mezan Cooking Oil 1L(C)</h6>
+          <hr>
+          <p class="card-text  text-danger">Rs:1,390</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="http://orbis.pk/wp-content/uploads/2017/04/carton_2.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Dalda Cooking Oil 1L(C)</h6>
+          <hr>
+          <p class="card-text  text-danger">Rs:1,625</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="http://gomart.pk/image/data/incoming/images/soya-supreme-cooking-oil-1ltr-x-5-gomart-pakistan-508.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Soya Supreme C Oil 1L(C) </h6>
+          <hr>
+          <p class="card-text  text-danger">Rs:1,480</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="back-btn">
+  <a href="Products.html"><button type="button" class="btn btn-outline-danger mt-5 center"><i class="fas fa-arrow-left"></i> Back</button></a>
+</div>
+
+
+   <!-- starting footer >>> -->
+
+   <div class="container-fluid bg-light text-center text-md-left mt-5">
+    <div class="class-row d-flex ">
+      <div class="col-lg-3 col-md-6  mx-auto mb-4 flex-fill">
+        <h6 class="text-uppercase font-weight-bold">About Us</h6>
+        <hr class="bg-danger mb-4 mt-0 d-inline-block mx-auto" style="width:79px; height:2px;">
+        <p class="mt-2 ">BS-Grocery is a low-cost general store that gets items crosswise over classifications like grocery,Best Products,excellence and health,family unit care, infant care.</p>
+        <div>
+          <h6 class="text-uppercase font-weight-bold">Location</h6>
+          <hr class="bg-danger mb-4 mt-0 d-inline-block mx-auto" style="width:83px; height:2px;">
+        </div>
+        <div id="map"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d904.4828076959274!2d66.97196677953904!3d24.934412539626663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb36aca3aa5e9d9%3A0x65ee28f9690945c2!2sBismillah%20Shams%20General%20and%20whole%20salers!5e0!3m2!1sen!2s!4v1618213527787!5m2!1sen!2s"
+            width="270" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6  mx-auto mb-4 order-2 flex-fill">
+        <h6 class="text-uppercase font-weight-bold">Products</h6>
+        <hr class="bg-danger mb-4 mt-0 d-inline-block mx-auto" style="width:83px; height:2px;">
+        <ul id="p-items" class="list-unstyled">
+          <li class="my-2"><a href="rice.html">Rice</a></li>
+          <li class="my-2"><a href="dates.html">Dates</a></li>
+          <li class="my-2"><a href="pulses.html">Pulses</a></li>
+          <li class="my-2"><a href="babycare.html">Baby Care</a></li>
+          <li class="my-2"><a href="beverages.html">Beverages</a></li>
+          <li class="my-2"><a href="grain.html">Grain</a></li>
+          <li class="my-2"><a href="spicies.html">Spicies</a></li>
+          <li class="my-2"><a href="sauces.html">Sauces</a></li>
+          <li class="my-2"><a href="flour.html">Flour</a></li>
+          <li class="my-2"><a href="personalcare.html">Personal Care</a></li>
+          <li class="my-2"><a href="dairy.html">Dairy</a></li>
+          <li class="my-2"><a href="oil&ghee.html">Oil&Ghee</a></li>
+          <li class="my-2"><a href="tea&cofee.html">Tea&Cofee</a></li>
+          <li class="my-2"><a href="salt&sugar.html">Salt&Sugar</a></li>
+          <li class="my-2"><a href="clean.html">Clean</a></li>
+          <li class="my-2"><a href="sweet.html">Sweet</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-6  mx-auto mb-4  flex-fill">
+        <h6 class="text-uppercase font-weight-bold">Our Pages</h6>
+        <hr class="bg-danger mb-4 mt-0 d-inline-block mx-auto" style="width:86px; height:2px;">
+        <ul id="ourpages" class="list-unstyled">
+          <li class="my-2"><a href="index.html">Home</a></li>
+          <hr>
+          <li class="my-2"><a href="about.html">About</a></li>
+          <hr>
+          <li class="my-2"><a href="Products.html">Products</a></li>
+          <hr>
+          <li class="my-2"><a href="blog.html">Blogs</a></li>
+          <hr>
+          <li class="my-2"><a href="contact.html">Contact</a></li>
+          <hr>
+        </ul>
+      </div>
+
+      <div id="contacr-f" class="col-lg-3 col-md-6 mx-auto mb-4 order-3 flex-fill">
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="bg-danger mb-4 mt-0 d-inline-block mx-auto" style="width:72px; height:2px;">
+        <ul class="list-unstyled">
+          <li class="my-3"><i class="fas fa-home mr-2"></i>Block C Gulshan-e-Ghazi Karachi</li>
+          <li class="my-3"><i class="fas fa-envelope mr-2"></i>bsgrocery635@gmail.com</li>
+          <li class="my-3"><i class="fas fa-phone mr-2"></i>03486438896</li>
+        </ul>
+        <h6 class="text-uppercase font-weight-bold">Social Links</h6>
+        <hr class="bg-danger mb-4 mt-0 d-inline-block mx-auto" style="width:105px; height:2px;">
+        <ul id="s-links">
+          <spna><a href="https://www.facebook.com/BSShams-Wholesalers-101369878117854/"><i class="fab fa-facebook-square"></i></a></spna>
+          <spna><a href=" https://wa.me/+923486438896"><i class="fab fa-whatsapp-square"></i></a></spna>
+          <spna><a href="https://twitter.com/BSShams1?s=08"><i class="fab fa-twitter-square"></i></a></spna>
+          <spna><a href="mailto:bsgrocery635@gmail.com"><i class="fas fa-envelope-square"></i></a></spna>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- footer finsih -->
+
+  <div class="footer-copyright text-center py-3 bg-light">
+    <p>All Copyright &copy; Reserved 2021 <a href="www.bs-grocery.com"> Bs-grocery.com</a></p>
+    <p>Designed by <a href="https://www.facebook.com/profile.php?id=100024405455528">AliRaza</a></p>
+
+  </div>
+</body>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+</html>

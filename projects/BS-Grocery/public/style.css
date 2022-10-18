@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    color: rgb(44, 42, 42) !important;
+    font-weight: 670;
+    padding:10 18px !important;
+}
+.active a{
+    color: rgb(158, 10, 10) !important;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+    color: rgb(158, 10, 10) !important;
+    transition: 0.7s;
+}
+
+.mainmenu{
+    margin-top: 66px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.mainmenu div:hover{
+    background-color:rgb(185, 11, 11);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.mainmenu a{
+    color: white;
+}
+.mainmenu a:hover{
+    color: white;
+    text-decoration: none;
+}
+.mainmenu div{
+     padding: 12px; 
+    background: black;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 480px;
+}
+.class-row li a{
+    color: black !important;
+    line-height: 2px !important;
+}
+.class-row a:hover{
+    text-decoration: none;
+    color: rgb(185, 11, 11) !important;
+}
+#p-items{
+    line-height: 14px;
+    font-size: 13px;
+}
+.class-row h6{
+    margin-top: 12px;
+}
+#ourpages li{
+    font-weight: 600;
+}
+#s-links a i{
+    color: rgb(31, 26, 26);
+    margin-right: 17px;
+    font-size: 26px;
+}
+#s-links a i:hover{
+    color: rgb(185, 10, 10);
+    /* transform: scale(1); */
+    transition: 0.8s;
+}
+.class-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer-copyright{
+    color: rgb(0, 0, 0);
+    background-color: black;
+    line-height: 15px;
+}
+.footer-copyright a{
+    color: rgb(195, 66, 66);
+}
+#f-contact{
+    border-right: 1px solid rgb(255, 251, 45);
+    height: 400px;
+}
+
+/* products card css */
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row .card{
+    margin-top:33px;
+
+}
+.p-headings{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#product-card .p-headings{
+    padding-top:10px ;
+}
+.row  a{
+    text-decoration: none !important;
+}
+#product-card  h6{
+        color: black;
+}
+
+#product-card a img {
+    /* width: 253px; */
+    height: 155px;
+}
+/* product cards hover                           */
+#product-card .card{
+    
+    overflow: hidden !important;
+}
+#product-card .card img:hover{
+    transform: scale(1.2) !important;
+}
+#product-card .card img{
+   
+    border-radius:2px !important;
+    transition: all 1.6s linear;
+} 
+/*  finish product card css */
+.back-btn{
+    text-align: center;
+}
+.back-btn button{
+    width: 80px;
+}
+#alert{
+    padding-top: 24px;
+}
+#alert-icon i{
+        height: 12px;
+        width: 20px;
+        margin-left: 6px;
+        font-size: 21px;
+}
+#alert-icon a{
+    color: rgb(128, 128, 43);
+}
+#alert-icon a:hover{
+    color: rgb(17, 153, 85);
+}
+.p-4 ol li a{
+    color: black !important;
+}
+.p-4 ol li a:hover{
+    color: rgb(231, 73, 73) !important;
+    font-weight: bold;
+}
+.p-4 ol li{
+    line-height: 20px;
+    font-size: 15px;
+    font-style:italic;
+    font-weight: 450;
+}
+#links-3 ol li{
+    line-height: 25px;
+    font-size: 15px;
+    font-style:italic;
+    font-weight: 450;
+}
+#links-3{
+    margin-bottom: 60px;
+}
+#first-cards img{
+    height: 179px;
+    width: 100%;
+}
+#first-cards p {
+    margin-top: 16px;
+}
+.c-headings{
+    text-align: center;
+}
+#first-cards{
+    text-align: center;
+}
+.card{
+    box-shadow: 1px 1px 6px rgb(167, 165, 165) !important;
+}
+.about-ol{
+    line-height: 28px;
+}
+#blog-post img{
+        margin-right: 12px;
+}
+/* contact page CSS */ 
+
+/* contact page CSS */
+
+
+
+/* Media queries */
+
+@media screen and (max-width: 448px) {
+    #product-card a img {
+        /* width: 253px; */
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-inner img{
+        width: 100%;
+        height: 250px;
+    }
+}
+@media screen and (min-device-width:120px ) and (max-device-width:653px) {
+    iframe{
+        width: 190px;
+        height: 110px;
+    }
+}
+@media screen and (min-device-width:767px ) and (max-device-width:1047px) {
+    iframe{
+        width: 180px;
+        height: 110px;
+    }
+}
+@media screen and (max-width:767px) {
+    #s-links {
+        margin-left: 18px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .card-body h6{
+            font-size:15px ;
+    }
+}
+
+
+/* finish media queries */
+
+
+
+
+
+
+

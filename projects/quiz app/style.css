@@ -1,0 +1,70 @@
+body{
+    background-color: #eff7f6;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.custombtn{
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    background-color:#5ad3e3;
+    color: black;
+    border:  none;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nextbtn{
+    padding: 10px 20px;
+    /* margin: 5px; */
+    background-color: #5ad3e3;
+    color: black;
+    border:  none;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.custombtn:hover{
+    background-color: #02738a;
+    color: white;
+}
+
+.nextbtn:hover{
+    background-color: #02738a;
+    color: white;
+}
+.active{
+    background-color: #02738a;
+    color: white;
+}
+.scoreShower{
+    background-color: #7bdff2;
+    color: blue;
+}
+
+.resultBody,.nameBody{
+    background-color: #dde6fc;
+}
+#namePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-image: url('https://www.kibrispdr.org/data/21/black-background-wallpaper-hd-14.jpg');
+    background-color: rgba(1, 7, 1, 0.575);
+}
+
+/* .custombtn,.nextbtn,.header{
+    background-color: red !important;
+} */

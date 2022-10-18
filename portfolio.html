@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio of Raza</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/c3268e6dd8.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- parent of asside and content -->
+  <div class="main portfoilio-main">
+
+    <!-- asside -->
+    <div class="d-flex asside flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+      <img src="images/logo.jpg" alt="">
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li>
+          <a href="about.html"><i class="fa-solid fa-user"></i> About</a>
+        </li>
+        <li>
+          <a href="services.html"><i class="fa-solid fa-list"></i> Services</a>
+        </li>
+        <li class="nav-item avtive">
+          <a href="portfolio.html"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fa-solid fa-id-card"></i> Contact</a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- finish asside -->
+
+
+
+    <!-- nav for responsive -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light mobile-nav">
+      <div class="container">
+        <img src="images/logo.jpg" alt="" height="80px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-center">
+            <li id="links" class="nav-item  ">
+              <a class="nav-link " href="index.html">Home <i class="fa-solid fa-house"></i>
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="about.html">About <i class="fa-solid fa-user"></i></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="services.html">Services <i class="fa-solid fa-list"></i></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio <i class="fa-solid fa-briefcase"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact <i class="fa-solid fa-id-card"></i></a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- close nav for responsive -->
+
+    <!-- starting portfolio main section -->
+
+    <div class="portfolio-main-content">
+      <!-- portfoilio heading -->
+      <div style="margin-left: 48px;" class="pt-4">
+        <h1 class="page-headings" style="font-size: 40px; margin-bottom: -15px;">Portfolio</h1>
+        <hr class="bg-danger mt-0 d-inline-block mx-auto" style="width:60px; height:4px; margin-bottom: -2px;">
+        <br>
+        <hr class="bg-danger mb-4 mt-0 d-inline-block mx-auto" style="width:35px; height:4px;">
+      </div>
+      <!-- closing portfolio heading -->
+
+      <!-- starting rows of cards -->
+
+      <!-- 
+  style="width: 18rem;" if i want
+ -->
+
+      <!-- row 1 -->
+      <div style="padding-top: 0px !important;" class="row ps-5">
+        <div class=" col-sm-6 col-md-6 col-lg-4 portfolio-cards mt-4 saylani-card">
+          <a href="projects/saylani web/index.html " >
+            <div class="card ">
+              <div class="card-body">
+                <img src="images/saylani.JPG" class="card-img-top" alt="...">
+                <h5 class="card-text">Saylani Landing Page</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class=" col-sm-6 col-md-6 col-lg-4 portfolio-cards mt-4">
+          <a href="projects/BS-Grocery/public/index.html " >
+            <div class="card ">
+              <div class="card-body">
+                <img src="images/bsgrocery.JPG" class="card-img-top" alt="...">
+                <h5 class="card-text">BS-Grocery</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class=" col-sm-6 col-md-6 col-lg-4 portfolio-cards mt-4">
+          <a href="projects/apple web/index.html " >
+            <div class="card ">
+              <div class="card-body">
+                <img src="images/apple.JPG" class="card-img-top" alt="...">
+                <h5 class="card-text">Apple Landing Page</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- closing row 1 -->
+
+
+
+      <!-- row 2 -->
+      <div style="padding-top: 0px !important;" class="row ps-5 mb-4">
+        <div class=" col-sm-6 col-md-6 col-lg-4 portfolio-cards mb-3 ">
+          <a href="projects/stop watch/index.html " >
+            <div class="card ">
+              <div class="card-body">
+                <img src="images/stopwatch.JPG" class="card-img-top" alt="...">
+                <h5 class="card-text">Stop Watch</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class=" col-sm-6 col-md-6 col-lg-4 portfolio-cards mb-3">
+          <a href="projects/quiz app/name.html" >
+            <div class="card ">
+              <div class="card-body">
+                <img src="images/quizapp.JPG" class="card-img-top" alt="...">
+                <h5 class="card-text">Quiz App</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class=" col-sm-6 col-md-6 col-lg-4 portfolio-cards mb-3">
+          <a href="projects/Date App/index.html " >
+            <div class="card ">
+              <div class="card-body">
+                <img src="images/dateapp.JPG" class="card-img-top" alt="...">
+                <h5 class="card-text">Age Calculater App</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      </div>
+ 
+
+      <!-- closing row 2 -->
+
+
+      <!-- closing rows of cards -->
+
+
+
+
+
+    </div>
+
+
+
+    <!-- closing portfolio main section -->
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</html>
