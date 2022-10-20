@@ -5,5 +5,5 @@ var typed = new Typed(".typing",{
         loop:true
 }
 )   
-
+localStorage.setItem('Author','Ali Raza')
 
