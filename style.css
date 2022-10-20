@@ -442,6 +442,9 @@ input:focus {
   justify-content: center;
   justify-content: space-evenly;
 }
+.contact-links-parent .linkedin a:hover{
+  color: #0a66c2 !important;
+}
 .contact-links-parent .whatsapp a:hover{
     color: rgb(5, 169, 139) !important;
 }
