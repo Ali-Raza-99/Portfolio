@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    /* background-color: rgb(254, 249, 240) !important; */
+    background-color: rgb(19, 19, 19) !important;
+    color: white !important;
+    padding: 0;
+}
+.container{
+    /* color: white; */
+    height: 500px;
+    flex-wrap: wrap;
+    margin-top: 28px !important;
+    /* background-color: rgb(28, 165, 184); */
+}
+.box{
+    /* width: 10%; */
+    border: 2px solid white;
+    height: 162px;
+    flex-grow: 3;
+}
+.box:hover{
+    background-color: rgb(30, 36, 42);
+    cursor: pointer;
+}
+.main-box{
+    width: 50%;
+    text-align: center;
+}
+.bt-0{
+    border-top: 0px;
+}
+.bl-0{
+    border-left: 0px;
+}
+.bb-0{
+    border-bottom: 0px;
+}
+.br-0{
+    border-right: 0px;
+}
+.boxtext{
+    font-size: 100px;
+}
+p{
+    margin-bottom: 0px !important;
+}
+.info{
+    /* justify-content: center; */
+    align-items: center;
+}
+.win img{
+    /* display: none; */
+    height: 0px;
+    transition: height 0.7s ease-in-out;
+}
+/* .win{
+    border: 1px solid black;
+} */
+button{
+    width: 123px;
+}
+.second-box{
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+}
+@media only screen and (max-width: 989) and (min-width:766px) {
+    .main-box{
+        /* margin-left: 169px !important; */
+    }
+}
+@media only screen and (max-width: 480px) {
+    .box {
+        height: 105px !important;
+    }
+}
+@media only screen and (max-width: 200px) {
+    .box{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .row .box{
+        width: 30%!important;
+    }
+    .box{
+
+        height: 84px !important;
+    }
+} 
+@media only screen and (max-width: 766px) {
+    .box{
+        height: 130px;
+    }
+    .boxtext {
+        font-size: 69px;
+    }
+    .main-box {
+        width: 100%;
+        padding-left: 15px;
+       
+    }
+    .first-div{
+        width: 100% !important;
+    }
+  }
