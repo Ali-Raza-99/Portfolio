@@ -349,9 +349,12 @@ span a:hover {
 }
 
 .portfoilio-main .asside {
-  height: 155vh;
+  height: 101vh;
 }
-
+.row-parent{
+  overflow: scroll;
+  height: 550px;
+}
 .ps-5 {
   padding: 2rem !important;
 }
