@@ -1,0 +1,28 @@
+.navbar{
+    height: 70px;
+}
+.card{
+    /* height: 270px !important; */
+}
+.input-div{
+    width: 350px;
+}
+.container{
+    /* width: 62% !important; */
+}
+.card-header p {
+    font-size: 14px;
+}
+.btn-primary {
+    width: 80px;
+}
+.result-area{
+    /* background-color: aqua; */
+    height: 150px !important ;
+}
+.notes h5{
+    font-size: 16px;
+}
+#footer{
+    height: 50px;
+}
