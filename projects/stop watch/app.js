@@ -78,7 +78,7 @@ function reset(e) {
     ul.innerHTML = ""
     msg.firstElementChild.innerHTML = "Reset"
     setTimeout(() => {
-        msg.firstElementChild.innerHTML = "Watch has Reset"
+        msg.firstElementChild.innerHTML = "Stop Watch has been reset"
     }, 400);
     lapCount = 1
 

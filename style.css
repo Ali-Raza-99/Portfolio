@@ -101,11 +101,13 @@
 
 .text {
   position: relative;
+  
 }
 
 .image {
   position: relative;
 }
+
 
 #img-border-top {
   width: 75px;
